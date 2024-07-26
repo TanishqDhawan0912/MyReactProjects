@@ -7,12 +7,10 @@ import Profile from "./components/profile";
 import UserContextProvider from "./Contexts/UserContextProvider";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <UserContextProvider>
       <h1>Hello tanishq here</h1>
-      <Login /> 
+      <Login />
       <Profile />
     </UserContextProvider>
   );
