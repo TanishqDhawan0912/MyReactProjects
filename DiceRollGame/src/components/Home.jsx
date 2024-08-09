@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="flex p-[160px]">
       <div className="leftside w-[50%]">
-        <img src="src\assets\dices1.jpg" alt="" srcset="" />
+        <img src="src\assets\dices1.png" alt="" srcset="" />
       </div>
       <div className="rightside w-[50%] flex flex-col justify-center">
         <div className="text-[100px] uppercase font-bold flex justify-end">
